@@ -1,0 +1,170 @@
+
+<html>
+<body>
+ 
+<p>1.你的性别是</p>
+<form action="submitt.jsp" method="post">
+男
+<input type="radio" value="男" name="gender"/>
+女
+<input type="radio" value="女" name="gender"/>
+
+
+
+<div>
+<p>2.你的年级是</p>
+<p>
+  <input type="radio" name="grade" value="大一" />
+  <label for="g1"></label>
+  大一 
+  <input type="radio" name="grade" value="大二" />
+  <label for="g2"></label>
+大二  
+<input type="radio" name="grade" value="大三" />
+<label for="g3"></label>
+大三 
+<input type="radio" name="grade" value="大四" />
+<label for="g4"></label>
+大四</p>
+</div>
+<p>3.你的学号是</p>
+<p>
+  <label for="num"></label>
+  <input type="text" name="num" id="num" />
+</p>
+<p>4.你的专业是</p>
+<p>
+  <label for="major"></label>
+  <input type="text" name="major" id="major" />
+</p>
+<p>5.本学年你进行如下活动的频率如何</p>
+<table width="963" border="1">
+  <tr>
+    <th width="708" scope="col">&nbsp;</th>
+    <th width="66" scope="col">很经常</th>
+    <th width="53" scope="col">经常</th>
+    <th width="52" scope="col">有时</th>
+    <th width="50" scope="col">从未</th>
+  </tr>
+  <tr>
+    <th scope="row">课上主动提问或参与讨论</th>
+    <td><input type="radio" name="q1" id="veryoften" value="veryoften" />
+    <label for="veryoften"></label></td>
+    <td><input type="radio" name="q1" id="often" value="often" />
+    <label for="often"></label></td>
+    <td><input type="radio" name="q1" id="sometime" value="sometime" />
+    <label for="sometime"></label></td>
+    <td><input type="radio" name="q1" id="never" value="never" />
+    <label for="never"></label></td>
+  </tr>
+  <tr>
+    <th scope="row">课堂上积极思考老师没有既定答案的问题</th>
+    <td><input type="radio" name="q2" id="veryoften2" value="veryoften" />
+    <label for="veryoften2"></label></td>
+    <td><input type="radio" name="q2" id="often2" value="often" />
+    <label for="often2"></label></td>
+    <td><input type="radio" name="q2" id="sometime2" value="sometime" />
+    <label for="sometime2"></label></td>
+    <td><input type="radio" name="q2" id="never2" value="never" />
+    <label for="never2"></label></td>
+  </tr>
+  <tr>
+    <th scope="row">课堂上就某一研究主题做报告</th>
+    <td><input type="radio" name="q3" id="veryoften3" value="veryoften" />
+    <label for="veryoften3"></label></td>
+    <td><input type="radio" name="q3" id="often3" value="often" />
+    <label for="often3"></label></td>
+    <td><input type="radio" name="q3" id="sometime3" value="sometime" />
+    <label for="sometime3"></label></td>
+    <td><input type="radio" name="q3" id="never3" value="never" />
+    <label for="never3"></label></td>
+  </tr>
+  <tr>
+    <th scope="row">课堂上和同学合作研究老师的问题</th>
+    <td><input type="radio" name="q4" id="veryoften4" value="veryoften" />
+    <label for="veryoften4"></label></td>
+    <td><input type="radio" name="q4" id="often4" value="often" />
+    <label for="often4"></label></td>
+    <td><input type="radio" name="q4" id="sometime4" value="sometime" />
+    <label for="sometime4"></label></td>
+    <td><input type="radio" name="q4" id="never4" value="never" />
+    <label for="never4"></label></td>
+  </tr>
+  <tr>
+    <th scope="row">反思并对自己的学习进程作评价</th>
+    <td><input type="radio" name="q5" id="veryoften5" value="veryoften" />
+    <label for="veryoften5"></label></td>
+    <td><input type="radio" name="q5" id="often5" value="often" />
+    <label for="often5"></label></td>
+    <td><input type="radio" name="q5" id="sometime5" value="sometime" />
+    <label for="sometime5"></label></td>
+    <td><input type="radio" name="q5" id="never5" value="never" />
+    <label for="never5"></label></td>
+  </tr>
+  <tr>
+    <th scope="row">上课前没有完成规定的作业</th>
+    <td><input type="radio" name="q6" id="veryoften6" value="veryoften" />
+    <label for="veryoften6"></label></td>
+    <td><input type="radio" name="q6" id="often6" value="often" />
+    <label for="often6"></label></td>
+    <td><input type="radio" name="q6" id="sometime6" value="sometime" />
+    <label for="sometime6"></label></td>
+    <td><input type="radio" name="q6" id="never6" value="never" />
+    <label for="never6"></label></td>
+  </tr>
+  <tr>
+    <th scope="row">做作业或讨论时，能融合不同课程所学的观点或概念</th>
+    <td><input type="radio" name="q7" id="veryoften7" value="veryoften" />
+    <label for="veryoften7"></label></td>
+    <td><input type="radio" name="q7" id="often7" value="often" />
+    <label for="often7"></label></td>
+    <td><input type="radio" name="q7" id="sometime7" value="sometime" />
+    <label for="sometime7"></label></td>
+    <td><input type="radio" name="q7r" id="never7" value="never" />
+    <label for="never7"></label></td>
+  </tr>
+  <tr>
+    <th scope="row">课后与同学讨论作业或实验</th>
+    <td><input type="radio" name="q8" id="veryoften8" value="veryoften" />
+    <label for="veryoften8"></label></td>
+    <td><input type="radio" name="q8" id="often8" value="often" />
+    <label for="often8"></label></td>
+    <td><input type="radio" name="q8" id="sometime8" value="sometime" />
+    <label for="sometime8"></label></td>
+    <td><input type="radio" name="q8" id="never8" value="never" />
+    <label for="never8"></label></td>
+  </tr>
+  <tr>
+    <th scope="row">使用网络媒介讨论作业</th>
+    <td><input type="radio" name="q9" id="veryoften9" value="veryoften" />
+    <label for="veryoften9"></label></td>
+    <td><input type="radio" name="q9" id="often9" value="often" />
+    <label for="often9"></label></td>
+    <td><input type="radio" name="q9" id="sometime9" value="sometime" />
+    <label for="sometime9"></label></td>
+    <td><input type="radio" name="q9" id="never9" value="never" />
+    <label for="never9"></label></td>
+  </tr>
+</table>
+<p>6.你的兴趣爱好</p>
+<p>篮球
+  <input type="radio" name="hobby"  value="篮球" />
+  <label for="basketball"></label>
+足球
+<input type="radio" name="hobby"  value="足球" />
+<label for="socer"></label>
+电竞
+<input type="radio" name="hobby" value="电竞" />
+<label for="dianjing"></label>
+影视
+<input type="radio" name="hobby" value="影视" />
+<label for="yingsi"></label>
+</p>
+<form action ="submitt.jsp">
+<p>
+  <input type="submit" name="submit" id="submit" value="提交"/>
+</p>
+</form>
+
+</body>
+</html>
